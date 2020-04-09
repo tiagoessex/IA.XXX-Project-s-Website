@@ -1,0 +1,87 @@
+
+.message {
+    color:black; 
+    background-color: #CCFFFF;
+    font-weight: normal;
+    border: 1px solid #003399;
+    border-radius: 5px;
+}
+
+.message2 {
+    color:white; 
+    background-color: #FF3300;
+    font-weight: normal; 
+    border: 1px solid #003399;
+    border-radius: 5px;
+}
+
+.message-important {
+    color:white; 
+    background-color: #FF3333;
+    font-weight: bold; 
+    border-radius: 5px;
+}
+
+.meter { 
+      height: 20px;  /* Can be anything */
+      position: relative;
+      margin: 60px 0 20px 0; /* Just for demo spacing */
+      /*background: #555;*/
+      background-color: #88bbff;
+      -moz-border-radius: 25px;
+      -webkit-border-radius: 25px;
+      border-radius: 25px;
+      padding: 10px;
+      -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+      -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+      box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+
+      background-image: 
+        -moz-linear-gradient(
+          -45deg, 
+            rgba(0, 125, 255, .2) 25%, 
+            transparent 25%, 
+            transparent 50%, 
+            rgba(0, 125, 255, .2) 50%, 
+            rgba(0, 125, 255, .2) 75%, 
+            transparent 75%, 
+            transparent
+         );
+      z-index: 1;
+      -webkit-background-size: 50px 50px;
+      -moz-background-size: 50px 50px;
+      -webkit-animation: move 2s linear infinite;
+         -webkit-border-top-right-radius: 8px;
+      -webkit-border-bottom-right-radius: 8px;
+             -moz-border-radius-topright: 8px;
+          -moz-border-radius-bottomright: 8px;
+                 border-top-right-radius: 8px;
+              border-bottom-right-radius: 8px;
+          -webkit-border-top-left-radius: 20px;
+       -webkit-border-bottom-left-radius: 20px;
+              -moz-border-radius-topleft: 20px;
+           -moz-border-radius-bottomleft: 20px;
+                  border-top-left-radius: 20px;
+               border-bottom-left-radius: 20px;
+      overflow: hidden;
+ }
+  
+@-webkit-keyframes move {
+        0% {
+           background-position: 0 0;
+        }
+        100% {
+           background-position: 50px 50px;
+        }
+}
+
+
+.saved {
+   background-color:#99FF33;
+   color: black;
+}
+
+.not-saved {
+   background-color:white;
+   color: black;
+}

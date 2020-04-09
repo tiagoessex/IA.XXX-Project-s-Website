@@ -1,0 +1,57 @@
+@media (min-width: 767px) {
+    /*
+    .navbar .dropdown-toggle:not(.nav-link)::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: .5em;
+        vertical-align: 0;
+        border-bottom: .3em solid transparent;
+        border-top: .3em solid transparent;
+        border-left: .3em solid;
+    }
+  */
+    body {
+        padding-top: 65px;
+    }
+}
+
+body {
+    padding-top: 65px;
+}
+
+
+/* ****** */
+
+
+/* NAVBAR */
+
+
+/* ****** */
+
+.nav-bk3 {
+    background: #00F260;
+    background: -webkit-linear-gradient(to right, #0575E6, #83bffb);
+    background: linear-gradient(to right, #0575E6, #83bffb);
+}
+
+
+/*
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+    border: 2px solid white;   
+}
+*/
+
+.steps {
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.list-group.list-group-flush .list-group-item {
+    font-size: 0.8rem;
+}
+
+option.pending-vehicle {
+    background-color: #ffff0054;
+}

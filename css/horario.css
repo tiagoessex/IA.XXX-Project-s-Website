@@ -1,0 +1,42 @@
+.sked-tape__event.oh-driving {
+    background-color: rgba(255, 255, 0, 0.53);
+    border-color: yellow;
+    color: black;
+}
+
+.sked-tape__event.oh-driving:hover {
+    background-color: rgba(255, 255, 0, 0.9);
+}
+
+.sked-tape__event.oh-waiting {
+    background-color: rgba(255, 0, 0, 0.53);
+    border-color: red;
+    color: black;
+}
+
+.sked-tape__event.oh-waiting:hover {
+    background-color: rgba(255, 0, 0, 0.9);
+}
+
+.sked-tape__event.oh-inspecting {
+    background-color: rgba(255, 165, 0, 0.53);
+    border-color: orange;
+    color: black;
+}
+
+.sked-tape__event.oh-inspecting:hover {
+    background-color: rgba(255, 165, 0, 0.9);
+}
+
+.sked-tape__event.oh-open {
+    background-color: rgba(51, 175, 12, 0.53);
+    border-color: #5ba044;
+}
+
+.sked-tape__event.oh-open:hover {
+    background-color: rgba(51, 175, 12, 0.9);
+}
+
+div.sked-tape__time-canvas {
+    min-width: 3000px;
+}

@@ -1,0 +1,137 @@
+﻿.label1 {
+    color: red;
+    background-color: yellow;
+    border-color: blue;
+}
+
+.label2 {
+    color: blue;
+    background-color: red;
+    border-color: green;
+}
+
+
+/*
+.legend 
+{ 
+	text-align: left; 
+	line-height: 18px; 
+	color: #555; 
+	background-color: #e6ccb3;
+	padding-right: 10px;
+} 
+
+.legend i 
+{ 
+	width: 18px; 
+	height: 18px; 
+	float: left; 
+	margin-right: 8px; 
+	opacity: 1;
+}
+*/
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.legend {
+    text-align: left;
+    line-height: 18px;
+    color: #555;
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+h2 {
+    font-size: 16px;
+    /* if not, the popup title is too big */
+}
+
+button:disabled,
+button[disabled] {
+    opacity: 0.2 !important;
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: bold;
+    background-color: transparent;
+    border-bottom: 3px solid #dd0000;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+div.leaflet-top.leaflet-right {
+    display: none;
+}
+
+a.nav-link div div p {
+    margin-bottom: 0px
+}
+
+div.instructions-table-div {
+    height: 500px;
+    overflow: auto;
+}
+
+table.instructions-table tr td:last-child,
+table.route-table tr td:last-child {
+    width: 1%;
+    white-space: nowrap;
+}
+
+div#v-pills-tab a {
+    background-color: #a2d9bb;
+    color: white;
+    text-shadow: 0px 0px 8px black;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+    -webkit-transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+div#v-pills-tab a.active,
+div#v-pills-tab a:hover {
+    background-color: #309e4a;
+    box-shadow: 0 0 5px 0px black;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #fff;
+    background-color: #005503;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+div#inspections-row {
+    height: calc(100vh - 65px);
+}
+
+div#inspections-leftbar {
+    height: 100%;
+    overflow-y: auto;
+}
+
+div#inspections-rightbar {
+    height: 100%;
+    overflow-y: auto;
+}

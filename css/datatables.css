@@ -1,0 +1,34 @@
+.table-only-data tbody tr.even{
+    background-color:#FFFF99;
+}
+
+
+tr.row_selected td{background-color:red !important;}
+
+tr.row_selected_purple td{background-color:#FF99FF !important;}
+
+.selected_row {
+	 background-color:#000099;
+	 color: white;
+}
+
+
+
+/* *********** */
+/* cell colors */
+/* *********** */
+.ok {
+	 background-color:#99FF00;
+	 color: black;
+}
+
+.not-ok {
+	 background-color:#FF6666;
+	 color: white;
+}
+
+.so-so {
+	 background-color:#FFFF66;
+	 color: black;
+}
+
